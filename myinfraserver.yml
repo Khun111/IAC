@@ -128,7 +128,7 @@ Resources:
           Fn::Sub: "${EnvironmentName}-VPCID"
 Outputs:
     Livesite:
-        Value: !Sub http://${WebAppLB.DNSName}
         Description: DNS URL of LoadBalancer
+        Value: !Join [ "", [ 'http://', !GetAtt WebAppLB.DNSName ]]
         Export:
             Name: !Sub ${EnvironmentName}-Public-DNS-URL
