@@ -17,3 +17,5 @@ You have been tasked with provisioning the required infrastructure and deploying
 This needs to be automated so that the infrastructure can be discarded as soon as the testing team finishes their tests and gathers their results.
 
 **Optional** - To add more challenge to the project, once the project is completed, you can try deploying sample website files located in a public S3 Bucket to the Apache Web Server running on an EC2 instance. Though, it is not the part of the project rubric.
+## Load Balancer URL
+http://udagr-webap-17guagl2kcst6-1034129516.us-east-1.elb.amazonaws.com/
